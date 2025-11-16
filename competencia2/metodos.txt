@@ -1,0 +1,5 @@
+Corrí 20 archivos c_apo, como ejemplo está el c_apo_10. 
+Por cada índice que utilicé para tratar el data drifting: IPC, UVA, TCRM y RIPTE, corrí el mismo script con 5 semillas disintas: 
+100003, 111109, 444449, 555557 y 999961. 
+También corrí 2 wokrflow optimizando una bayesiana con 50 iteraciones y 20 semillas. En estos casos, entrené en un notebook los meses impares, validando en 202105, y en el otro notebook los meses pares, validando en 202106. 
+Luego promedié las probabilidades de cada predicción a futuro (202108) de las 6 metodologías, ponderando estas probabilidades por las ganancias obtenidas a 202106. 
